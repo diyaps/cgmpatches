@@ -307,7 +307,7 @@
     invoke-virtual {v3, v7, v8}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     .line 76
-    const-string v7, "\u7845\u57fa"
+    const-string v7, "\u5fae\u6cf0"
 
     invoke-virtual {v3, v0, v7}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
@@ -372,7 +372,7 @@
     invoke-virtual {v5, v7, v8}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 86
-    const-string v7, "SIAppPatched"
+    const-string v7, "AIDEXAppPatched"
 
     invoke-virtual {v5, v0, v7}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 

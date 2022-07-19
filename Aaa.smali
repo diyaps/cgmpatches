@@ -1,10 +1,10 @@
-.class public Lcom/microtechmd/cgms/Aab;
+.class public Lcom/microtechmd/cgms/Aaa;
 .super Ljava/lang/Object;
-.source "Aab.java"
+.source "Aaa.java"
 
 
 # static fields
-.field public static volatile Instance:Lcom/microtechmd/cgms/Aab; = null
+.field public static volatile Instance:Lcom/microtechmd/cgms/Aaa; = null
 
 .field public static final MMOLL_TO_MGDL:D = 18.0182
 
@@ -22,7 +22,7 @@
     .line 22
     const/4 v0, 0x1
 
-    sput-boolean v0, Lcom/microtechmd/cgms/Aab;->bFirstTime:Z
+    sput-boolean v0, Lcom/microtechmd/cgms/Aaa;->bFirstTime:Z
 
     return-void
 .end method
@@ -35,38 +35,38 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 26
-    iput-object p1, p0, Lcom/microtechmd/cgms/Aab;->mContext:Landroid/content/Context;
+    iput-object p1, p0, Lcom/microtechmd/cgms/Aaa;->mContext:Landroid/content/Context;
 
     .line 27
     return-void
 .end method
 
-.method public static g(Landroid/content/Context;)Lcom/microtechmd/cgms/Aab;
+.method public static g(Landroid/content/Context;)Lcom/microtechmd/cgms/Aaa;
     .locals 2
     .param p0, "context"    # Landroid/content/Context;
 
     .line 30
-    sget-object v0, Lcom/microtechmd/cgms/Aab;->Instance:Lcom/microtechmd/cgms/Aab;
+    sget-object v0, Lcom/microtechmd/cgms/Aaa;->Instance:Lcom/microtechmd/cgms/Aaa;
 
     if-nez v0, :cond_1
 
     .line 31
-    const-class v0, Lcom/microtechmd/cgms/Aab;
+    const-class v0, Lcom/microtechmd/cgms/Aaa;
 
     monitor-enter v0
 
     .line 32
     :try_start_0
-    sget-object v1, Lcom/microtechmd/cgms/Aab;->Instance:Lcom/microtechmd/cgms/Aab;
+    sget-object v1, Lcom/microtechmd/cgms/Aaa;->Instance:Lcom/microtechmd/cgms/Aaa;
 
     if-nez v1, :cond_0
 
     .line 33
-    new-instance v1, Lcom/microtechmd/cgms/Aab;
+    new-instance v1, Lcom/microtechmd/cgms/Aaa;
 
-    invoke-direct {v1, p0}, Lcom/microtechmd/cgms/Aab;-><init>(Landroid/content/Context;)V
+    invoke-direct {v1, p0}, Lcom/microtechmd/cgms/Aaa;-><init>(Landroid/content/Context;)V
 
-    sput-object v1, Lcom/microtechmd/cgms/Aab;->Instance:Lcom/microtechmd/cgms/Aab;
+    sput-object v1, Lcom/microtechmd/cgms/Aaa;->Instance:Lcom/microtechmd/cgms/Aaa;
 
     .line 35
     :cond_0
@@ -86,7 +86,7 @@
     .line 37
     :cond_1
     :goto_0
-    sget-object v0, Lcom/microtechmd/cgms/Aab;->Instance:Lcom/microtechmd/cgms/Aab;
+    sget-object v0, Lcom/microtechmd/cgms/Aaa;->Instance:Lcom/microtechmd/cgms/Aaa;
 
     return-object v0
 .end method
@@ -242,7 +242,7 @@
     invoke-virtual {v4, v5}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
     .line 68
-    iget-object v5, p0, Lcom/microtechmd/cgms/Aab;->mContext:Landroid/content/Context;
+    iget-object v5, p0, Lcom/microtechmd/cgms/Aaa;->mContext:Landroid/content/Context;
 
     invoke-virtual {v5}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
@@ -300,7 +300,7 @@
 
     move-result-object v8
 
-    invoke-static {v8}, Lcom/microtechmd/cgms/Aab;->getSlopeName(Lcom/microtechmd/cgms/manager/model/CgmModel$GlucoseTrend;)Ljava/lang/String;
+    invoke-static {v8}, Lcom/microtechmd/cgms/Aaa;->getSlopeName(Lcom/microtechmd/cgms/manager/model/CgmModel$GlucoseTrend;)Ljava/lang/String;
 
     move-result-object v8
 
@@ -396,7 +396,7 @@
     invoke-virtual {v4, v5}, Landroid/content/Intent;->putExtras(Landroid/os/Bundle;)Landroid/content/Intent;
 
     .line 90
-    iget-object v0, p0, Lcom/microtechmd/cgms/Aab;->mContext:Landroid/content/Context;
+    iget-object v0, p0, Lcom/microtechmd/cgms/Aaa;->mContext:Landroid/content/Context;
 
     invoke-virtual {v0, v4}, Landroid/content/Context;->sendBroadcast(Landroid/content/Intent;)V
     :try_end_0

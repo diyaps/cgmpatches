@@ -202,7 +202,7 @@
     .local v3, "jSONObject":Lorg/json/JSONObject;
     new-instance v4, Landroid/content/Intent;
 
-    const-string v5, "com.eveningoutpost.dexdrip.NS_EMULATOR"
+    const-string v5, "com.eveningoutpost.dexdrip.SI_APP"
 
     invoke-direct {v4, v5}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
